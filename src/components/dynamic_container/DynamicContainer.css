@@ -1,0 +1,14 @@
+#container {
+  display: block;
+  justify-content: center;
+  position: relative;
+}
+
+#nav-bar {
+  position: absolute;
+  width: 400px;
+  height: 50px;
+  right: -398px;
+  top: -235px;
+  font-size: 18px;
+}
