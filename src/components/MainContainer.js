@@ -1,7 +1,7 @@
 import "./MainContainer.css"
 import React, { useEffect, useState } from "react"
 import Form from "./Form"
-import DynamicContainer from "/home/tyler/code/practice/react-practice/attempt-2/src/components/dynamic_container/DynamicContainer.js"
+//import DynamicContainer from "/home/tyler/code/practice/react-practice/attempt-2/src/components/dynamic_container/DynamicContainer.js"
 import AboutMe from "./AboutMe"
 
 export default function MainContainer() {
@@ -37,7 +37,7 @@ export default function MainContainer() {
         <iframe
           id="spotify-player"
           title="playlist"
-          src="https://open.spotify.com/embed/playlist/5saayxOzM0eZjDbMCAPhw2?utm_source=generator"
+          src="https://open.spotify.com/embed/playlist/5dOZtEXmEGHxcnMlJxm0vo?utm_source=generator"
           frameBorder="0"
           allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
         ></iframe>
@@ -46,7 +46,7 @@ export default function MainContainer() {
         <h3>http://www.flatspace.com/my_profile</h3>
       </div>
       <div id="dynamic-container-container" className="child-div">
-        <DynamicContainer />
+        {/* Dynamic Container goes here */}
       </div>
       <div id="comments" className="child-div">
         <button id="form-hide-show" onClick={formVisible}>

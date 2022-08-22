@@ -5,7 +5,7 @@
   grid-template-columns: 400px 400px;
   row-gap: 30px;
   column-gap: 30px;
-  /* background-image: url(""); */
+  background-image: url("/home/tyler/code/phase-2/emma-tyler-project/src/img/skull-pattern.jpg");
   background-color: rgb(49, 49, 49);
   background-attachment: fixed;
   background-repeat: repeat;
@@ -16,12 +16,13 @@
   align-items: center;
   border: 3px solid;
   border-radius: 10px;
-  background-color: hsl(30, 50%, 50%);
+  background-color: hsl(0, 0%, 0%);
   text-align: center;
+  /* background-image: url("/home/tyler/code/phase-2/emma-tyler-project/src/img/skull-pattern.jpg"); */
+  color: rgb(162, 1, 255);
 }
 
 #spotify-container {
-  background-color: hsl(100, 50%, 50%);
   grid-row: 2;
   grid-column: 2;
   justify-content: center;
@@ -34,7 +35,6 @@
 }
 
 #page-url {
-  background-color: hsl(10, 50%, 50%);
   grid-row: 3;
   grid-column: 1;
   justify-content: center;
@@ -44,20 +44,17 @@
   display: block;
   overflow-y: auto;
   align-items: center;
-  background-color: hsl(320, 50%, 50%);
   grid-row: 4;
   grid-column: 1;
 }
 
 .comment {
-  background-color: hsl(320, 74%, 71%);
   border-radius: 10px;
   margin: 10px;
 }
 
 #dynamic-container-container {
   height: 484px;
-  background-color: hsl(200, 50%, 70%);
   grid-row: 3 / span 4;
   grid-column: 2;
 }

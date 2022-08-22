@@ -1,5 +1,6 @@
 #comment-form {
+  border: 3px solid;
   border-radius: 10px;
-  background-color: rgb(220, 163, 228);
+  background: rgba(244, 117, 155, 0.6);
   margin: 10px;
 }

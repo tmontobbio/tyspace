@@ -32,6 +32,7 @@ export default function Form({ handleSubmission, visible, setVisible }) {
     <div>
       <form id="comment-form" onSubmit={handlePost}>
         <input
+          id="name"
           onChange={handleCommentValues}
           label="Name"
           type="text"
@@ -41,6 +42,7 @@ export default function Form({ handleSubmission, visible, setVisible }) {
         ></input>
         <br />
         <input
+          id="body"
           onChange={handleCommentValues}
           label="Body"
           type="text"
