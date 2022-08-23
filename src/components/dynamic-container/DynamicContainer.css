@@ -1,0 +1,47 @@
+#about-me {
+  background-color: hsl(0, 0%, 0%);
+  grid-row: 2;
+  grid-column: 1;
+  position: relative;
+}
+
+#name-div {
+  position: absolute;
+  width: 300px;
+  height: 50px;
+  right: 45px;
+  top: -15px;
+  font-size: 25px;
+}
+
+#profile-image {
+  position: absolute;
+  width: 180px;
+  height: auto;
+  margin-left: 30px;
+  border-radius: 10px;
+  border: 3px solid;
+}
+
+#bio-div {
+  position: absolute;
+  width: 150px;
+  height: 200px;
+  right: 30px;
+  top: 100px;
+}
+
+#mood-div {
+  position: absolute;
+  width: 150px;
+  height: 50px;
+  right: 200px;
+  top: 325px;
+  font-size: 18px;
+}
+
+#bio-list {
+  list-style-type: none;
+  font-size: 18px;
+  text-align: left;
+}

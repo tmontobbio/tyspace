@@ -1,0 +1,8 @@
+#diary {
+  position: absolute;
+  width: 590px;
+  height: 670px;
+  background-color: rgb(167, 135, 135);
+  right: 2px;
+  top: 68px;
+}
