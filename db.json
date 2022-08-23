@@ -2,23 +2,24 @@
   "comments": [
     {
       "id": 1,
-      "name": "Karen",
+      "name": "Chastity",
       "body": "I miss you! Call me soon!"
     },
     {
       "id": 2,
       "name": "Steve",
-      "body": "Update your profile, dork!"
+      "body": "Update your profile, man!"
     },
+
     {
-      "name": "123123",
-      "body": "1323123",
-      "id": 3
-    },
-    {
-      "name": "123451",
-      "body": "2312314",
+      "name": "Tyler",
+      "body": "Tight playlist <3",
       "id": 4
+    },
+    {
+      "name": "Donnovan",
+      "body": "Missed you at the spot yesterday.",
+      "id": 5
     }
   ]
 }

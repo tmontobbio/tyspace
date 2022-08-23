@@ -4,3 +4,8 @@
   background: rgba(244, 117, 155, 0.6);
   margin: 10px;
 }
+
+#submit-button {
+  background-color: rgb(162, 1, 255);
+  border-radius: 4px;
+}

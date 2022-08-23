@@ -51,7 +51,7 @@ export default function Form({ handleSubmission, visible, setVisible }) {
           name="body"
         ></input>
         <br />
-        <button>Post</button>
+        <button id="submit-button">Send</button>
       </form>
     </div>
   )

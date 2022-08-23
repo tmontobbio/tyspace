@@ -1,7 +1,7 @@
 import "./MainContainer.css"
 import React, { useEffect, useState } from "react"
 import Form from "./Form"
-//import DynamicContainer from "/home/tyler/code/practice/react-practice/attempt-2/src/components/dynamic_container/DynamicContainer.js"
+import DynamicContainer from "/home/tyler/code/phase-2/emma-tyler-project/src/components/dynamic-container/DynamicContainer.js"
 import AboutMe from "./AboutMe"
 
 export default function MainContainer() {
@@ -17,8 +17,8 @@ export default function MainContainer() {
   const renderComments = comments.map((comment) => {
     return (
       <div className="comment" key={comment.id}>
-        <h5>{comment.name}</h5>
-        <p>{comment.body}</p>
+        <h5 id="comment-title">{comment.name}</h5>
+        <p id="comment-body">{comment.body}</p>
       </div>
     )
   })
@@ -43,14 +43,14 @@ export default function MainContainer() {
         ></iframe>
       </div>
       <div id="page-url" className="child-div">
-        <h3>http://www.flatspace.com/my_profile</h3>
+        <h4>http://www.flatspace.com/consumed_by_shadows</h4>
       </div>
       <div id="dynamic-container-container" className="child-div">
-        {/* Dynamic Container goes here */}
+        {<DynamicContainer />}
       </div>
       <div id="comments" className="child-div">
         <button id="form-hide-show" onClick={formVisible}>
-          Add Comment
+          Comment
         </button>
         {visible ? (
           <Form
