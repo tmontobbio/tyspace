@@ -23,6 +23,7 @@ export default function AboutMe() {
         src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmJVZ5Zjeb8FXB4j9zOJhuYzMrTk6JES0J1w&usqp=CAU"
         alt="profile-img"
         id="profile-image"
+        className="img-fluid"
       />
     </div>
   )
