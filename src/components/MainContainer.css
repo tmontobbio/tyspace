@@ -74,6 +74,7 @@
 #dynamic-container-container {
   grid-row: 3 / span 4;
   grid-column: 2;
+  position: relative;
 }
 
 #form-hide-show {
