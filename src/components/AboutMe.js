@@ -11,8 +11,8 @@ export default function AboutMe() {
         <ul id="bio-list">
           <li>Male</li>
           <li>16</li>
-          <li>Lost in the darkness</li>
-          <li>Cali &#127796;</li>
+          <li>Lost</li>
+          <li>&#127796; Cali &#127796;</li>
           <li>Last login: 08/12/2008</li>
         </ul>
       </span>

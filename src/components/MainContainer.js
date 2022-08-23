@@ -1,7 +1,7 @@
 import "./MainContainer.css"
 import React, { useEffect, useState } from "react"
 import Form from "./Form"
-import DynamicContainer from "/home/tyler/code/phase-2/emma-tyler-project/src/components/dynamic-container/DynamicContainer.js"
+import DynamicContainer from "./dynamic-container/DynamicContainer.js"
 import AboutMe from "./AboutMe"
 
 export default function MainContainer() {

@@ -1,8 +1,8 @@
 #main-div {
   background-image: url("/home/tyler/code/phase-2/emma-tyler-project/src/img/skull-pattern.jpg");
   background-attachment: fixed;
-  background-repeat: repeat;
   justify-content: center;
+  background-repeat: repeat;
   display: grid;
   grid-template-rows: 70px 400px 60px 600px;
   grid-template-columns: 400px 600px;
