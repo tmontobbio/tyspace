@@ -1,6 +1,6 @@
 import React from "react"
-import "./Pics.css"
+import "./AboutMe.css"
 
-export default function Pics() {
+export default function AboutMe() {
   return <div id="pics">Pictures TEST</div>
 }

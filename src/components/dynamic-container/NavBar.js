@@ -12,7 +12,7 @@ export default function NavBar() {
         &nbsp;&nbsp;Bands&nbsp;&nbsp;&#9959;
       </Link>
       <Link className="nav-link" to="/pics">
-        &nbsp;&nbsp;Pics&nbsp;&nbsp;&#9959;
+        &nbsp;&nbsp;About Me&nbsp;&nbsp;&#9959;
       </Link>
       <Link className="nav-link" to="/diary">
         &nbsp;&nbsp;Diary&nbsp;&nbsp;

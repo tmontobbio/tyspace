@@ -1,16 +1,16 @@
 #bands {
+  background-color: transparent;
   color-scheme: dark;
-  display: grid;
   position: absolute;
+  display: grid;
+  overflow-y: auto;
   grid-template-rows: 230px;
   grid-template-columns: 280px 280px;
   row-gap: 10px;
   width: 590px;
-  height: 670px;
-  background-color: rgb(0, 0, 0);
+  height: 640px;
   right: 2px;
-  top: 68px;
-  overflow-y: auto;
+  top: 40px;
 }
 
 .band-card {

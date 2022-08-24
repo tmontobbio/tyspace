@@ -1,21 +1,20 @@
-import NavBar from "./NavBar";
-import Bands from "./Bands";
-import Diary from "./Diary";
-import Top from "./Top";
-import Pics from "./Pics";
-import React from "react";
-import { Switch, Route} from "react-router-dom";
-import "./DynamicContainer.css";
+import NavBar from "./NavBar"
+import Bands from "./Bands"
+import Diary from "./Diary"
+import Top from "./Top"
+import AboutMe from "./AboutMe"
+import React from "react"
+import { Switch, Route } from "react-router-dom"
+import "./DynamicContainer.css"
 //import { BrowserRouter as Router, Route, Routes } from "react-router-dom"
 
 export default function DynamicContainer() {
-
   return (
     <div id="dynamic-container">
       <NavBar />
       <Switch>
         <Route path="/pics">
-          <Pics />
+          <AboutMe />
         </Route>
         <Route path="/top">
           <Top />
@@ -31,5 +30,5 @@ export default function DynamicContainer() {
         </Route>
       </Switch>
     </div>
-  );
+  )
 }

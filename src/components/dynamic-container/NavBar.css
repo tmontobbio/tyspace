@@ -1,13 +1,14 @@
 #nav-bar {
-  background: rgb(0, 0, 0);
+  background: transparent;
   position: relative;
-  width: 350px;
+  width: 450px;
   height: 25px;
-  right: -110px;
-  top: -340px;
+  right: -70px;
+  top: -320px;
   font-size: 20px;
 }
 
 .nav-link {
   font-family: "Comic Sans MS", "Comic Sans", cursive;
+  color: #da00cf;
 }
