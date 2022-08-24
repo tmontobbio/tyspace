@@ -2,12 +2,34 @@
   position: absolute;
   width: 590px;
   height: 670px;
-  background-color: rgb(167, 135, 135);
+  background-color: black;
   right: 2px;
   top: 68px;
 }
 
-.top-image {
-  size: 5px;
+.friend-card-image {
+  width: 175px;
 }
+
+.friend-cards {
+  display: flex;
+  flex-direction: row;
+  overflow: scroll;
+  height: 550px;
+}
+
+#column-1 {
+  width: 50%;
+  text-align: center;
+  
+}
+#column-2 {
+  width: 50%;
+  text-align: center;
+}
+
+.friend-card {
+padding: 10px;
+}
+
 

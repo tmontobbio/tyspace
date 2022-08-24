@@ -12,9 +12,16 @@ export default function Top() {
       .then((data) => setFriends(data))
   }, [])
 
-  const friendCard = friends.map((friend) => {
-   return <FriendCard id={friend.name} image={friend.image} name={friend.name} key={friend.id}/>
+  let friendCardsA = friends.slice(0,4)
+  let friendCardsB = friends.slice(4,8)
+
+  friendCardsA = friendCardsA.map((friend) => {
+   return <FriendCard id={friend.name} image={friend.image} name={friend.name} key={friend.id} />
   })
+
+  friendCardsB = friendCardsB.map((friend) => {
+    return <FriendCard id={friend.name} image={friend.image} name={friend.name} key={friend.id} />
+   })
 
 
   // add const to map over friend array
@@ -22,8 +29,9 @@ export default function Top() {
   return (
   <div id="top">
     <h1>EMO KID's Friend Space</h1>
-      <div>
-        {friendCard}
+      <div className="friend-cards">
+        <div id="column-1">{friendCardsA}</div>
+        <div id="column-2">{friendCardsB}</div>
       </div>
 
   </div>
