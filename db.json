@@ -21,5 +21,87 @@
       "body": "Missed you at the spot yesterday.",
       "id": 5
     }
+  ],
+  "bands": [
+    {
+      "id": 1,
+      "name": "The Fall of Troy",
+      "image": "https://townsquare.media/site/978/files/2020/07/The-Fall-of-Troy.jpg?w=1200"
+    },
+    {
+      "id": 2,
+      "name": "Mars Volta",
+      "image": "http://exclaim.ca/images/up-mars_volta_1_lg.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Fallout Boy",
+      "image": "https://media.npr.org/programs/atc/features/2007/nov/fob300-69d2f0183b199a3072d2446a04a608cdcf2f4b10-s1100-c50.jpg"
+    },
+    {
+      "id": 4,
+      "name": "My Chemical Romance",
+      "image": "https://townsquare.media/site/366/files/2022/07/attachment-my_chemical_romance_2005.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Paramore",
+      "image": "https://static.independent.co.uk/s3fs-public/thumbnails/image/2018/09/09/15/paramore.jpg?width=1200"
+    },
+    {
+      "id": 6,
+      "name": "Coheed and Cambria",
+      "image": "https://www.oswegonian.com/wp-content/uploads/2012/10/coheed-and-cambria.jpg"
+    },
+    {
+      "id": 7,
+      "name": "AFI",
+      "image": "https://www.bmi.com/cache/images/musicworld/afi_1_500_770_554_70_s.jpg"
+    },
+    {
+      "id": 8,
+      "name": " The Fall of Troy",
+      "image": "https://townsquare.media/site/978/files/2020/07/The-Fall-of-Troy.jpg?w=1200"
+    },
+    {
+      "id": 9,
+      "name": "The Used",
+      "image": "https://www.spirit-of-metal.com/les%20goupes/T/The%20Used/pics/2ae0_1.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Taking Back Sunday",
+      "image": "https://www.billboard.com/wp-content/uploads/media/taking-back-sunday-old-billboard-1548.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Panic! At the Disco",
+      "image": "https://i.guim.co.uk/img/static/sys-images/Music/Pix/pictures/2009/7/7/1246958573517/Panic-At-the-Disco-001.jpg?width=620&quality=85&fit=max&s=2a7c2dceea801bd8c98677b96216dc30"
+    },
+    {
+      "id": 12,
+      "name": "Hawthorne Heights",
+      "image": "https://img.youtube.com/vi/BMK8uDQOHEU/0.jpg"
+    },
+    {
+      "id": 13,
+      "name": "The Red Jumpsuit Apparatus",
+      "image": "https://m.media-amazon.com/images/I/51h+rujGyEL._SL1000_.jpg"
+    },
+    {
+      "id": 14,
+      "name": "Thursday",
+      "image": "https://nextmosh.com/wp-content/uploads/2021/05/Thursday_band.jpg"
+    },
+    {
+      "id": 15,
+      "name": "Cursive",
+      "image": "https://bohemian.com/papers/sonoma/10.10.02/gifs/cursive-0241.jpg"
+    },
+    {
+      "id": 16,
+      "name": "Saves the Day",
+      "image": "https://res.cloudinary.com/dhh19fozh/q_auto:good,f_auto,c_fill,ar_1.778846153846154,g_north,dpr_1.0/w_auto:breakpoints_85_850_10_10:412/jb7production-uploads/legacy-band-images/saves-the-day.jpg"
+    }
   ]
 }

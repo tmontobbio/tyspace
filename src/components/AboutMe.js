@@ -5,14 +5,14 @@ export default function AboutMe() {
   return (
     <div id="about-me-div" className="child-div">
       <div id="name-div">
-        <h3>꧁ ঔৣ☬✞ K¥lê ✞☬ঔৣ ꧂</h3>
+        <h3>꧁ ঔৣ☬✞ Darian ✞☬ঔৣ ꧂</h3>
       </div>
       <span id="bio-div">
         <ul id="bio-list">
           <li>Male</li>
           <li>16</li>
           <li>Lost</li>
-          <li>&#127796; Cali &#127796;</li>
+          <li>&#9959; Cali &#9959;</li>
           <li>Last login: 08/12/2008</li>
         </ul>
       </span>
