@@ -129,5 +129,47 @@
       "date": "1/1/2008",
       "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     }
+  ],
+  "friends": [
+    {
+      "name": "Tom",
+      "image": "https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2015/3/31/1427823466140/1fe69f2c-59d6-4e07-ab3a-8b60dbe35db2-1020x1020.jpeg?width=700&quality=85&auto=format&fit=max&s=488d904c14758c38d8010de62c742e4b",
+      "id": "1"
+    },
+    {
+      "name": "Maverick",
+      "image": "https://i.pinimg.com/originals/ff/74/42/ff74420c8f4f9e4ef3bbad5681858277.jpg",
+      "id": "2"
+    },
+    {
+      "name": "Vanessa",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYZvBMahNyP4cH-VEbB2X2atBkFozBh51ILQ&usqp=CAU",
+      "id": "3"
+    },
+    {
+      "name": "Wade",
+      "image": "https://a2-images.myspacecdn.com/images01/15/5fda24094cf1895930f8dfb05ac9c62f/300x300.jpg",
+      "id": "4"
+    },
+    {
+      "name": "Jefferee",
+      "image": "https://a1-images.myspacecdn.com/images03/31/651291a9c3c6436cafa1a3118b089753/600x600.jpg",
+      "id": "5"
+    },
+    {
+      "name": "Eli",
+      "image": "https://i.pinimg.com/736x/09/ea/d2/09ead24dff813a728f40182eade28511--emo-boys-youtubers.jpg",
+      "id": "6"
+    },
+    {
+      "name": "Pete",
+      "image": "https://data.whicdn.com/images/295771913/original.jpg",
+      "id": "7"
+    },
+    {
+      "name": "Simon",
+      "image": "https://i.pinimg.com/originals/e5/dc/be/e5dcbeef346a333eead3baff22cffb1e.jpg",
+      "id": "8"
+    }
   ]
 }
