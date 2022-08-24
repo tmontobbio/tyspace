@@ -9,8 +9,8 @@ export default function Form({ handleSubmission, visible, setVisible }) {
 
   function handleCommentValues(e) {
     const name = e.target.name
-    const value = e.target.value
-    setNewComment({ ...newComment, [name]: value })
+    const body = e.target.value
+    setNewComment({ ...newComment, [name]: body })
   }
 
   function handlePost(e) {

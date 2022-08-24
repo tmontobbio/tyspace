@@ -11,8 +11,8 @@ export default function NavBar() {
       <Link className="nav-link" to="/">
         &nbsp;&nbsp;Bands&nbsp;&nbsp;&#9959;
       </Link>
-      <Link className="nav-link" to="/pics">
-        &nbsp;&nbsp;About Me&nbsp;&nbsp;&#9959;
+      <Link className="nav-link" to="/bio">
+        &nbsp;&nbsp;Bio&nbsp;&nbsp;&#9959;
       </Link>
       <Link className="nav-link" to="/diary">
         &nbsp;&nbsp;Diary&nbsp;&nbsp;

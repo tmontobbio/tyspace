@@ -2,7 +2,7 @@ import NavBar from "./NavBar"
 import Bands from "./Bands"
 import Diary from "./Diary"
 import Top from "./Top"
-import AboutMe from "./AboutMe"
+import Bio from "./Bio"
 import React from "react"
 import { Switch, Route } from "react-router-dom"
 import "./DynamicContainer.css"
@@ -13,8 +13,8 @@ export default function DynamicContainer() {
     <div id="dynamic-container">
       <NavBar />
       <Switch>
-        <Route path="/pics">
-          <AboutMe />
+        <Route path="/bio">
+          <Bio />
         </Route>
         <Route path="/top">
           <Top />

@@ -17,7 +17,7 @@ export default function MainContainer() {
   const renderComments = comments.map((comment) => {
     return (
       <div className="comment" key={comment.id}>
-        <h5 id="comment-title">{comment.name}</h5>
+        <h5 id="comment-title">&#9959; {comment.name} &#9959;</h5>
         <p id="comment-body">{comment.body}</p>
       </div>
     )

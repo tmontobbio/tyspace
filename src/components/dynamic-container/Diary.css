@@ -1,14 +1,28 @@
-#diary {
+#diary-container {
   background-color: transparent;
   color-scheme: dark;
   position: absolute;
   display: grid;
   overflow-y: auto;
   grid-template-rows: 230px;
-  grid-template-columns: 280px 280px;
+  grid-template-columns: 550px;
   row-gap: 10px;
   width: 590px;
   height: 640px;
   right: 2px;
   top: 40px;
+}
+
+.diary-card {
+  background-color: transparent;
+  text-align: left;
+  padding-left: 20px;
+  display: inline-grid;
+}
+
+.diary-title {
+  margin-bottom: -15px;
+}
+
+.diary-body {
 }
