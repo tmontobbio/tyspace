@@ -6,7 +6,7 @@ export default function Top() {
   const [friends, setFriends] = useState([])
 
   useEffect(() => {
-    fetch("http://localhost:3001/friends")
+    fetch("https://t-e-db.herokuapp.com/friends")
       .then((r) => r.json())
       .then((data) => setFriends(data))
   }, [])

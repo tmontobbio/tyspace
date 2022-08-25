@@ -6,7 +6,7 @@ export default function Bands() {
   const [bands, setBands] = useState([])
 
   useEffect(() => {
-    fetch("http://localhost:3001/bands")
+    fetch("https://t-e-db.herokuapp.com/bands")
       .then((r) => r.json())
       .then((data) => setBands(data))
   }, [])

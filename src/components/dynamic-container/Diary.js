@@ -6,7 +6,7 @@ export default function Diary() {
   const [entries, setEntries] = useState([])
 
   useEffect(() => {
-    fetch("http://localhost:3001/diary")
+    fetch("https://t-e-db.herokuapp.com/diary")
       .then((r) => r.json())
       .then((data) => setEntries(data))
   }, [])

@@ -8,7 +8,7 @@ export default function MainContainer() {
   const [comments, setComments] = useState([])
   const [visible, setVisible] = useState(false)
   useEffect(() => {
-    fetch("http://localhost:3001/comments")
+    fetch("https://t-e-db.herokuapp.com/comments")
       .then((r) => r.json())
       .then((data) => setComments(data))
   }, [])
