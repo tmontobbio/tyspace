@@ -16,7 +16,7 @@ export default function Form({ handleSubmission, visible, setVisible }) {
   function handlePost(e) {
     e.preventDefault()
 
-    fetch("http://localhost:3001/comments", {
+    fetch("https://t-e-db.herokuapp.com/comments", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
