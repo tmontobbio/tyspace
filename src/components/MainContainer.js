@@ -49,6 +49,9 @@ export default function MainContainer() {
         {<DynamicContainer />}
       </div>
       <div id="comments" className="child-div">
+        <span>
+          <h3>Darian's Friend's Comments:</h3>
+        </span>
         <button id="form-hide-show" onClick={formVisible}>
           Comment
         </button>

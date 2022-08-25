@@ -17,7 +17,7 @@
   border: 3px solid;
 }
 
-#bio-div {
+#bio-span {
   position: absolute;
   width: 150px;
   height: 200px;
@@ -36,6 +36,6 @@
 
 #bio-list {
   list-style-type: none;
-  font-size: 18px;
+  font-size: 20px;
   text-align: center;
 }

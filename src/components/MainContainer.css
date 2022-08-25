@@ -8,7 +8,8 @@
   grid-template-columns: 400px 600px;
   row-gap: 30px;
   column-gap: 30px;
-  height: 1750px;
+  color-scheme: dark;
+  height: 100vh;
 }
 
 #dynamic-container-container {
@@ -44,7 +45,7 @@
 #spotify-player {
   border-radius: 10px;
   width: 595px;
-  height: 395px;
+  height: 394px;
 }
 
 #page-url {

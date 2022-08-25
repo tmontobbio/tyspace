@@ -1,10 +1,12 @@
 #top {
   position: absolute;
   width: 590px;
-  height: 670px;
+  height: 610px;
   background-color: black;
   right: 2px;
   top: 68px;
+  color-scheme: dark;
+  overflow-y: auto;
 }
 
 .friend-card-image {
@@ -14,14 +16,13 @@
 .friend-cards {
   display: flex;
   flex-direction: row;
-  overflow: scroll;
+  /* overflow: scroll; */
   height: 550px;
 }
 
 #column-1 {
   width: 50%;
   text-align: center;
-  
 }
 #column-2 {
   width: 50%;
@@ -29,7 +30,5 @@
 }
 
 .friend-card {
-padding: 10px;
+  padding: 10px;
 }
-
-

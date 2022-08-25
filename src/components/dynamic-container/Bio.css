@@ -2,13 +2,39 @@
   background-color: transparent;
   color-scheme: dark;
   position: absolute;
-  display: grid;
   overflow-y: auto;
-  grid-template-rows: 230px;
-  grid-template-columns: 280px 280px;
-  row-gap: 10px;
   width: 590px;
   height: 640px;
   right: 2px;
   top: 40px;
+}
+
+#about {
+  position: absolute;
+  border: 3px solid rgb(162, 1, 255);
+  border-radius: 10px;
+  top: 25px;
+  right: 30px;
+}
+
+#youtube-div {
+  position: absolute;
+  top: 455px;
+  right: 15px;
+}
+
+.player {
+  border: 3px solid rgb(162, 1, 255);
+  border-radius: 10px;
+  margin-top: 15px;
+}
+
+.prompt {
+  color: #da00cf;
+  font-size: 30px;
+}
+
+.value {
+  color: rgb(255, 0, 140);
+  font-size: 30px;
 }

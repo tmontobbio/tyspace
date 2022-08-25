@@ -16,13 +16,13 @@ export default function DynamicContainer() {
         <Route path="/bio">
           <Bio />
         </Route>
-        <Route path="/top">
+        <Route exact path="/">
           <Top />
         </Route>
         <Route path="/diary">
           <Diary />
         </Route>
-        <Route exact path="/">
+        <Route path="/bands">
           <Bands />
         </Route>
         <Route path="*">
