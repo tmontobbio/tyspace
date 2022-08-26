@@ -29,7 +29,7 @@ export default function Bio() {
           <tr>
             <td className="prompt">Religion:</td>
             <td className="value">
-              &#9959;&#9959;&#9959;&#9959;&#9959;&#9959;
+            𖤐𖤐𖤐𖤐𖤐𖤐
             </td>
           </tr>
           <tr>

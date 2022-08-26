@@ -18,9 +18,10 @@
 .diary-card {
   background-color: transparent;
   text-align: left;
-  padding-left: 20px;
   display: inline-grid;
   border-bottom: 3px solid ;
+  padding-left: 20px;
+  margin-left: 40px;
 }
 
 .diary-title {

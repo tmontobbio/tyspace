@@ -12,7 +12,7 @@ export default function AboutMe() {
           <li>Male</li>
           <li>17</li>
           <li>Lost</li>
-          <li>Cali</li>
+          <li>𖤐Cali𖤐</li>
           <li>Last login: 08/12/2008</li>
         </ul>
       </span>

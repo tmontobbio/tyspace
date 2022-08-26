@@ -9,17 +9,16 @@
   row-gap: 10px;
   width: 590px;
   height: 644px;
-  right: 2px;
   top: 40px;
-  left: 33px;
 }
 
 .band-card {
   background-color: transparent;
   display: inline-grid;
-  width: 210px;
+  width: 150px;
   height: 230px;
   right: 100px;
+  margin-left: 30px;
   top: 100px;
   padding: 5px;
 }

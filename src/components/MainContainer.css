@@ -66,6 +66,8 @@
   grid-row: 4;
   grid-column: 1;
   /* font-family: "Comic Sans MS", "Comic Sans", cursive; */
+  font-family: 'DotGothic16', sans-serif;
+  font-size: 16pt;
 }
 
 .comment {
@@ -79,6 +81,7 @@
   text-decoration: underline;
   color: #da00cf;
   font-family: 'DotGothic16', sans-serif;
+  font-size: 15pt;
 }
 #comment-body {
   font-style: italic;

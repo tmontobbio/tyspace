@@ -7,6 +7,7 @@
   height: 640px;
   right: 2px;
   top: 40px;
+  font-family: 'DotGothic16', sans-serif;
 }
 
 #about {
@@ -14,6 +15,7 @@
   border: 3px solid rgb(162, 1, 255);
   border-radius: 10px;
   top: 25px;
+  left: 30px;
   right: 30px;
 }
 
@@ -21,6 +23,7 @@
   position: absolute;
   top: 455px;
   right: 15px;
+  left: 15px;
 }
 
 .player {
@@ -31,10 +34,10 @@
 
 .prompt {
   color: #da00cf;
-  font-size: 30px;
+  font-size: 25px;
 }
 
 .value {
-  color: rgb(255, 0, 140);
-  font-size: 30px;
+  color: white;
+  font-size: 25px;
 }
