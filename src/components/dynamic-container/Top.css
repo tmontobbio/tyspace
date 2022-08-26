@@ -17,18 +17,30 @@
   display: flex;
   flex-direction: row;
   /* overflow: scroll; */
-  height: 550px;
+  overflow: scroll;
+  height: 541px;
+  font-family: 'DotGothic16', sans-serif;
+
 }
 
 #column-1 {
   width: 50%;
   text-align: center;
+  color: white;
 }
 #column-2 {
   width: 50%;
   text-align: center;
+  color: white;
 }
 
 .friend-card {
   padding: 10px;
 }
+
+#friend-header {
+  font-family: 'DotGothic16', sans-serif;
+  font-size: 20pt;
+}
+
+

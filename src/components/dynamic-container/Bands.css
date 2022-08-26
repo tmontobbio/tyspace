@@ -8,9 +8,10 @@
   grid-template-columns: 280px 280px;
   row-gap: 10px;
   width: 590px;
-  height: 640px;
+  height: 644px;
   right: 2px;
   top: 40px;
+  left: 33px;
 }
 
 .band-card {
@@ -31,4 +32,6 @@
 
 .band-name {
   width: auto;
+  font-family: 'DotGothic16', sans-serif;
+  font-size: 14pt;
 }

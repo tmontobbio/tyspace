@@ -39,8 +39,8 @@ export default function Top() {
   // add const to map over friend array
 
   return (
-    <div id="top">
-      <h1>Darian's Friend Space</h1>
+  <div id="top">
+    <h1 id="friend-header">Darian's Friend Space</h1>
       <div className="friend-cards">
         <div id="column-1">{friendCardsA}</div>
         <div id="column-2">{friendCardsB}</div>
