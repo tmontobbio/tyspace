@@ -17,7 +17,7 @@ export default function MainContainer() {
   const renderComments = comments.map((comment) => {
     return (
       <div className="comment" key={comment.id}>
-        <h5 id="comment-title">&#9959; {comment.name} &#9959;</h5>
+        <h5 id="comment-title">{comment.name}</h5>
         <p id="comment-body">{comment.body}</p>
       </div>
     )
@@ -32,7 +32,7 @@ export default function MainContainer() {
 
   return (
     <div id="main-div">
-      <AboutMe />
+            <AboutMe />
       <div id="spotify-container" className="child-div">
         <iframe
           id="spotify-player"
@@ -43,7 +43,7 @@ export default function MainContainer() {
         ></iframe>
       </div>
       <div id="page-url" className="child-div">
-        <h4>http://www.flatspace.com/consumed_by_shadows</h4>
+        <h4 id="url">http://www.flatspace.com/consumed_by_shadows</h4>
       </div>
       <div id="dynamic-container-container" className="child-div">
         {<DynamicContainer />}

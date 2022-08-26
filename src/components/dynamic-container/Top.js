@@ -28,7 +28,7 @@ export default function Top() {
 
   return (
   <div id="top">
-    <h1>EMO KID's Friend Space</h1>
+    <h1 id="friend-header">Darian's Friend Space</h1>
       <div className="friend-cards">
         <div id="column-1">{friendCardsA}</div>
         <div id="column-2">{friendCardsB}</div>

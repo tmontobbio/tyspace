@@ -11,7 +11,7 @@
   height: 50px;
   right: 45px;
   top: -15px;
-  font-size: 25px;
+  /* font-size: 25px; */
 }
 
 #profile-image {
@@ -37,11 +37,11 @@
   height: 50px;
   right: 200px;
   top: 325px;
-  font-size: 18px;
+  /* font-size: 18px; */
 }
 
 #bio-list {
   list-style-type: none;
-  font-size: 18px;
+  /* font-size: 18px; */
   text-align: left;
 }

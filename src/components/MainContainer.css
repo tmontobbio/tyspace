@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&family=Metal+Mania&display=swap');
+
 #main-div {
   background-image: url("/src/img/skull-pattern-2.png");
   background-attachment: fixed;
@@ -8,6 +10,7 @@
   grid-template-columns: 400px 600px;
   row-gap: 30px;
   column-gap: 30px;
+  height: 1750px;
   height: 1750px;
 }
 
@@ -25,7 +28,7 @@
   background-color: hsl(0, 0%, 0%);
   text-align: center;
   color: rgb(162, 1, 255);
-  font-family: Ink Free;
+  /* font-family: Ink Free; */
 }
 
 #about-me-div {
@@ -51,6 +54,8 @@
   grid-row: 3;
   grid-column: 1;
   justify-content: center;
+  font-family: 'DotGothic16', sans-serif;
+  font-size: 13pt;
 }
 
 #comments {
@@ -59,7 +64,7 @@
   align-items: center;
   grid-row: 4;
   grid-column: 1;
-  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  /* font-family: "Comic Sans MS", "Comic Sans", cursive; */
 }
 
 .comment {
@@ -70,13 +75,15 @@
 }
 
 #comment-title {
-  font-size: 20px;
   text-decoration: underline;
   color: #da00cf;
+  font-family: 'DotGothic16', sans-serif;
 }
 #comment-body {
   font-style: italic;
-  color: rgb(255, 0, 140);
+  color: white;
+  font-family: 'DotGothic16', sans-serif;
+  font-size: 14pt;
 }
 
 #form-hide-show {
@@ -84,4 +91,8 @@
 
   background-color: rgb(162, 1, 255);
   border-radius: 4px;
+}
+
+#url {
+  color: white;
 }
